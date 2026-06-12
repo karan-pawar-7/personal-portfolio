@@ -1,101 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Document</title>
-    <link rel="stylesheet" href="practice1.html">
-<style>
-    body{
-            background: linear-gradient(to right, rgba(163, 222, 246, 0.715),rgba(230, 232, 117, 0.715));
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        #table1{
-           display: block;
-            justify-content:center;
-            align-items: center;
-            margin-top: 5rem;
-            margin-left: 35rem;
-        }
-        table{
-            background-color: rgb(174, 184, 192);
-            border: 2px solid black;
-            margin-top: 1rem;
-            box-shadow: 0 0 20px rgb(21, 18, 18);
-            
-        }
-        thead{
-            background-color: #cb13bfb2;
-        }
-        tbody{
-            background-color: rgba(217, 43, 226, 0.507);
-            text-align: center;
-        }
-        h1{      
-             margin-bottom: 2px;
-             font-size: 40px;
-             margin-left: 10rem;
-             font-weight: bold;
-             
-        }
-</style>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer</title>
+    <link rel="stylesheet" href="practice1.css">
 </head>
- <body>
-    <script type="module" src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/PBQQBw8bfXDhBo7w/scene.splinecode" events-target="local"></spline-viewer>
-    
-      <div id="table1">
-        <h1>Table</h1>
-      
-    <table>
-       
-        <thead>
-            <tr>
-                <th rowspan="3">Days</th>
-                <th colspan="3">Seminor</th>
-            </tr>
-            <tr>
-                <th colspan="2">Schedul</th>
-                <th rowspan="2">Topic</th>
-            </tr>
-            <tr>
-                <th>Begin</th>
-                <th>End</th>
-            </tr>
-           
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="2">Monday</td>
-                <td rowspan="2">8:00 am</td>
-                <td rowspan="2">5:00 pm</td>
-                <td>Introuction XML</td>
-            </tr>
-            <tr>
-                <td>Validity:DTD and Relax NG </td>
-            </tr>
-            <tr>
-                <td rowspan="3">Tuesday</td>
-                <td>8:00 am</td>
-                <td>11:00 am</td>
-                <td rowspan="1.5">Xpath</td>
-            </tr>
-            <tr>
-                <td>11:00 am</td>
-                <td>2:00 pm</td>
-                <td rowspan="1.5">XSL Tranformation</td>
-            </tr>
-            <tr>
-                <td>2:00 pm</td>
-                <td>5:00 pm</td>
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td>8:00 am</td>
-                <td>12:00 pm</td>
-                <td>XSL Formatin boject </td>
-            </tr>
-        </tbody>
-    </table>
+
+<body>
+    <nav>
+        <div class="logo">
+            Krushi <span>Mitra</span>
+        </div>
+        <ul>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#SuccessStories">Success Stories</a>
+            <a href="#contact">Contact</a>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <div class="home-left">
+            <h1>Empowering Farmers with Technology</h1>
+
+            <p>आजच्या आधुनिक युगात तंत्रज्ञानामुळे शेती क्षेत्रात मोठे
+                बदल घडत आहेत. शेतकऱ्यांना हवामानाचा अंदाज,
+                बाजारभाव, पीक व्यवस्थापन आणि शासकीय योजनांची
+                माहिती सहजपणे मिळू शकते. या प्लॅटफॉर्मचा उद्देश
+                शेतकऱ्यांना आधुनिक तंत्रज्ञानाशी जोडून त्यांची शेती अधिक
+                उत्पादक, फायदेशीर आणि शाश्वत बनवणे हा आहे. योग्य माहिती
+                आणि डिजिटल साधनांच्या मदतीने शेतकरी अधिक चांगले निर्णय घेऊ
+                शकतात व आपल्या उत्पन्नात वाढ करू शकतात. 🌱🚜
+            </p>
+            <button class="btm">Learn More</button>
+        </div>
+        <div class="home-right">
+            <img src="f2.jpg" alt="Farmer">
+        </div>
+
     </div>
- </body>
+
+    <div id="about">
+
+        <div class="left-about">
+            <h3>About</h3>
+            <h1>Krushi <span>Mitra</span></h1>
+            <p>कृषी मित्र हे शेतकऱ्यांसाठी तयार केलेले एक डिजिटल व्यासपीठ आहे.
+                आधुनिक तंत्रज्ञानाच्या मदतीने शेतकऱ्यांना शेतीविषयक माहिती, हवामान
+                अंदाज, पीक व्यवस्थापन, खत व कीड नियंत्रण, तसेच बाजारभाव यांची
+                माहिती एका ठिकाणी उपलब्ध करून देणे हा या वेबसाइटचा मुख्य
+                उद्देश आहे.
+
+                आमचे ध्येय शेतकऱ्यांना योग्य वेळी अचूक माहिती देऊन त्यांच्या उत्पादनात
+                वाढ करणे आणि शेती अधिक फायदेशीर बनवणे आहे. कृषी मित्र शेतकरी
+                आणि तंत्रज्ञान यांच्यामधील एक विश्वासार्ह दुवा म्हणून कार्य करते.
+            </p>
+            <button>Contact Me</button>
+
+        </div>
+        <div class="right-about">
+            <div class="video1">
+                <video
+                    src="https://cdnl.iconscout.com/lottie/premium/thumb/farmer-spreading-fertilizer-by-hand-animation-gif-download-12599252.mp4"
+                    autoplay muted loop>F1</video>
+                <video
+                    src="https://cdnl.iconscout.com/lottie/premium/thumb/farmer-spreading-grains-to-dry-in-sunlight-animation-gif-download-12599244.mp4"
+                    autoplay muted loop>f2</video>
+                <video
+                    src="https://cdnl.iconscout.com/lottie/premium/thumb/farmer-carrying-a-sack-of-pestiside-animation-gif-download-12599236.mp4"
+                    autoplay muted loop>f3</video>
+            </div>
+            <div class="video2">
+                <video
+                    src="https://cdnl.iconscout.com/lottie/premium/thumb/farmer-plowing-the-land-with-tractor-animation-gif-download-12599239.mp4"
+                    autoplay muted loop></video>
+                <video
+                    src="https://cdnl.iconscout.com/lottie/premium/thumb/farmer-cutting-wheat-with-a-sickle-animation-gif-download-12599231.mp4"
+                    autoplay muted loop></video>
+                <video
+                    src="https://cdnl.iconscout.com/lottie/premium/thumb/farmer-harvesting-corn-on-sunny-day-animation-gif-download-12599253.mp4"
+                    autoplay muted loop></video>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="services">
+
+        <div class="container1">
+            <div class="s1">
+                
+                <img src="https://cdn-icons-png.flaticon.com/128/628/628487.png" alt="s1">
+                <h1>Crop Guidance</h1>
+                <p>आम्ही शेतकऱ्यांना योग्य पिकांची निवड, लागवड आणि व्यवस्थापन याबाबत मार्गदर्शन करतो. पिकांच्या वाढीसाठी
+                    आवश्यक खतांचा वापर, सिंचन पद्धती आणि काळजी याविषयी माहिती देतो. तसेच कीड व रोगांपासून पिकांचे
+                    संरक्षण करण्यासाठी उपयुक्त सल्ला प्रदान करतो. आधुनिक शेती तंत्रज्ञानाचा वापर करून उत्पादन वाढविण्यास
+                    मदत करतो. 🌾👨‍🌾
+                </p>
+            </div>
+            <div class="s2">
+                
+                <img src="https://cdn-icons-png.flaticon.com/128/8809/8809634.png" alt="s2">
+                <h1>Irrigation Solutions</h1>
+                <p>पिकांना योग्य वेळी आणि योग्य प्रमाणात पाणी मिळणे अत्यंत महत्त्वाचे आहे. आम्ही ठिबक सिंचन, तुषार सिंचन
+                    आणि इतर आधुनिक सिंचन पद्धतींबाबत माहिती देतो. पाण्याची बचत करून उत्पादन वाढविण्यासाठी उपयुक्त
+                    मार्गदर्शन करतो. हवामान आणि पिकांच्या गरजेनुसार सिंचनाचे नियोजन करण्यास मदत करतो. यामुळे शेती अधिक
+                    कार्यक्षम आणि फायदेशीर बनते.</p>
+            </div>
+            <div class="s3">
+
+                <img src="https://cdn-icons-png.flaticon.com/128/6691/6691999.png" alt="s3">
+                <h1>Soil Testing</h1>
+                <p>चांगल्या उत्पादनासाठी मातीची गुणवत्ता जाणून घेणे आवश्यक आहे. आम्ही माती परीक्षणाचे महत्त्व आणि
+                    प्रक्रिया याबाबत माहिती देतो. मातीतील पोषक घटकांच्या आधारे योग्य खतांची शिफारस केली जाते. यामुळे
+                    खतांचा अनावश्यक खर्च कमी होतो आणि उत्पादनात वाढ होते. निरोगी मातीमुळे पिकांची वाढ अधिक चांगली होते.
+                    🌱🌾</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="s4">
+                
+                <img src="https://cdn-icons-png.flaticon.com/128/4339/4339591.png" alt="s4">
+                <h1>Market Price</h1>
+                <p>शेतकऱ्यांना विविध कृषी मालाचे ताजे बाजारभाव उपलब्ध करून दिले जातात. यामुळे योग्य वेळी आणि योग्य
+                    ठिकाणी माल विक्रीचा निर्णय घेणे सोपे होते. बाजारातील मागणी आणि किंमतींच्या बदलांची माहिती दिली जाते.
+                    यामुळे शेतकऱ्यांना अधिक नफा मिळविण्यास मदत होते. अचूक बाजारभाव माहितीमुळे आर्थिक नियोजनही सुलभ होते.
+                    🌾📊💰</p>
+            </div>
+            <div class="s5">
+                
+                <img src="https://cdn-icons-png.flaticon.com/128/19038/19038113.png" alt="s5">
+                <h1>Modern Farming</h1>
+                <p>आधुनिक तंत्रज्ञानाचा वापर करून शेती अधिक कार्यक्षम आणि उत्पादनक्षम बनवता येते. आम्ही नवीन कृषी
+                    यंत्रसामग्री, स्मार्ट शेती पद्धती आणि आधुनिक साधनांची माहिती देतो. यामुळे वेळ, श्रम आणि खर्चाची बचत
+                    होते. तंत्रज्ञानाच्या मदतीने पिकांचे व्यवस्थापन अधिक सोपे आणि अचूक होते. आधुनिक शेतीमुळे शेतकऱ्यांचे
+                    उत्पन्न वाढण्यास मदत होते. 🌱🚜📱</p>
+            </div>
+            <div class="s6">
+               
+                <img src="https://cdn-icons-png.flaticon.com/128/18005/18005307.png" alt="s6">
+                 <h1>Weather Information</h1>
+                <p>हवामानाचा शेतीवर थेट परिणाम होत असतो. आम्ही पाऊस, तापमान, वारा आणि इतर हवामान बदलांची अद्ययावत माहिती
+                    पुरवतो. या माहितीच्या आधारे शेतकरी पेरणी, सिंचन आणि कापणीचे योग्य नियोजन करू शकतात. वेळेवर मिळालेला
+                    हवामान अंदाज पिकांचे नुकसान टाळण्यास मदत करतो. यामुळे शेती अधिक सुरक्षित आणि फायदेशीर बनते.
+                    🌦️🌾👨‍🌾</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="SuccessStories">
+
+        <h1>Success <span>Story</span></h1>
+        <h2>Shri. Raju Pawar :A successful agri-entrepreneur
+             in vegetable farming.
+        </h2>
+        <img src="https://rohtas.kvk4.in/images/success-story1.jpg" alt="">
+        <h3>Vill: Yaval Primpri</h3>
+        <h3>Dist: Jalna</h3>
+        <h3>Mob: +91 8999540391</h3>
+        <p>
+            **राजू पवार यांची यशोगाथा**
+
+राजू पवार हे एक प्रगतशील शेतकरी आहेत. ते महाराष्ट्र राज्यातील जालना जिल्ह्यातील यावल पिंपरी गावाचे रहिवासी आहेत. आधुनिक तंत्रज्ञानाचा वापर करून शेतीमध्ये प्रगती साधण्याचा त्यांचा नेहमी प्रयत्न राहिला आहे.
+
+सुरुवातीला त्यांनी पारंपरिक पद्धतीने शेती केली, परंतु बदलत्या काळानुसार नवीन तंत्रज्ञान आणि आधुनिक शेती पद्धतींचा अवलंब करण्याची गरज त्यांनी ओळखली. याच उद्देशाने त्यांनी **Krushi Mitra** या वेबसाइटचा वापर सुरू केला. या वेबसाइटद्वारे त्यांना विविध पिकांची माहिती, आधुनिक शेती तंत्रज्ञान, खत व्यवस्थापन, कीड व रोग नियंत्रण, हवामान अंदाज आणि बाजारभाव यांसारखी उपयुक्त माहिती मिळाली.
+
+Krushi Mitra वेबसाइटवरील मार्गदर्शनाचा उपयोग करून राजू पवार यांनी आपल्या शेतात आधुनिक तंत्रज्ञानाचा अवलंब केला. त्यांनी योग्य नियोजन, सुधारित बियाण्यांचा वापर, ठिबक सिंचन आणि शास्त्रीय पद्धतींचा अवलंब करून पिकांचे उत्पादन वाढवले. त्यामुळे त्यांच्या उत्पन्नात लक्षणीय वाढ झाली आणि शेती अधिक फायदेशीर बनली.
+
+आज राजू पवार हे त्यांच्या गावातील आणि परिसरातील इतर शेतकऱ्यांसाठी प्रेरणास्थान बनले आहेत. ते इतर शेतकऱ्यांनाही **Krushi Mitra** वेबसाइटचा वापर करण्याचा सल्ला देतात, जेणेकरून आधुनिक माहितीच्या आधारे शेती अधिक उत्पादक आणि नफ्याची होऊ शकेल.
+
+राजू पवार यांची ही यशोगाथा दाखवून देते की, आधुनिक तंत्रज्ञान, योग्य माहिती आणि मेहनत यांच्या मदतीने कोणताही शेतकरी शेतीमध्ये यश मिळवू शकतो.
+
+        </p>
+        <img src="https://rohtas.kvk4.in/images/success-story2.jpg" alt="">
+
+
+    </div>
+
+    <div id="contact">
+        <h1>Contact <span>Me</span></h1>
+        <form >
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <label for="Mob">Mobile No:</label>
+            <input type="tel" id="Mob">
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email">
+
+            <label for="msg">Message:</label>
+            <textarea name="text" id="msg"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+
+
 </html>

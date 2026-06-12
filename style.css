@@ -21,24 +21,27 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    
+    
 }
 .logo img{
     display: flex;
     height: 50px;
     width: 80px;
-    color: #0bfdf5;
+    color: #e8ecec;
 }
 
 .logo {
     font-size: 28px;
     font-weight: bold;
-    color: rgb(66, 188, 222);
+    color: rgb(242, 246, 247);
 }
 
 ul {
     display: flex;
     list-style: none;
     gap: 25px;
+    
 }
 
 ul a {
@@ -95,7 +98,7 @@ p {
 }
 
 span {
-    color: red;
+    color: rgb(247, 14, 10);
 }
 
 .left-div {
@@ -172,7 +175,7 @@ button {
 }
 
 .right span {
-    color: red;
+    color: rgb(250, 6, 6);
 }
 
 .read-btn {
@@ -273,7 +276,7 @@ span{
 
 #contact h1 {
     margin-bottom: 55px;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 
 form {
@@ -482,10 +485,11 @@ form button {
 
     #contact{
         padding:50px 20px;
+        height: 100%;
     }
-
     form{
-        width:80%;
+        width:70%;
         max-width:500px;
+        height: 600px;
     }
 }
